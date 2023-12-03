@@ -1,0 +1,4 @@
+ public CarBuilder setModel(String model) {
+        this.model = model;
+        return this;
+    }
