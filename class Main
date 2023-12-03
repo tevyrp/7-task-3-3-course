@@ -1,0 +1,15 @@
+public class Main {
+    public static void main(String[] args) {
+
+        CarBuilder carBuilder = new CarBuilder();
+
+        carBuilder.setMake("Toyota").setModel("Camry").setColor("Silver").setOptions(Arrays.asList("Sunroof", "Leather", "Bluetooth"));
+
+        Car car = carBuilder.build();
+        System.out.println("Car details:");
+        System.out.println("Make: " + car.getMake());
+        System.out.println("Model: " + car.getModel());
+        System.out.println("Color: " + car.getColor());
+        System.out.println("Options: " + car.getOptions());
+    }
+}
