@@ -1,0 +1,4 @@
+  public Car build() {
+        return new Car(make, model, color, options);
+    }
+}
