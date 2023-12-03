@@ -1,0 +1,10 @@
+public class CarBuilder {
+    private String make;
+    private String model;
+    private String color;
+    private List<String> options;
+
+    public CarBuilder setMake(String make) {
+        this.make = make;
+        return this;
+    }
