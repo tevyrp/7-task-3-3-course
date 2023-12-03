@@ -1,0 +1,4 @@
+    public CarBuilder setOptions(List<String> options) {
+        this.options = options;
+        return this;
+    }
