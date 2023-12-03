@@ -1,0 +1,4 @@
+  public CarBuilder setColor(String color) {
+        this.color = color;
+        return this;
+    }
