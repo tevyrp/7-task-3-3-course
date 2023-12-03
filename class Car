@@ -1,0 +1,12 @@
+public class Car {
+    private String make;
+    private String model;
+    private String color;
+    private List<String> options;
+
+    public Car(String make, String model, String color, List<String> options) {
+        this.make = make;
+        this.model = model;
+        this.color = color;
+        this.options = options;
+    }
